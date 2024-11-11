@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Wambi Shop</string>
+    <string name="register">Registro</string>
+    <string name="username_hint">Nombre de usuario</string>
+    <string name="email_hint">Correo electrónico</string>
+    <string name="password_hint">Contraseña</string>
+    <string name="confirm_password_hint">Confirmar contraseña</string>
+    <string name="register_button">Registrarse</string>
+    <string name="identify">Identificate</string>
+</resources>
