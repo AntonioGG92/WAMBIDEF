@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">Wambi Shop</string>
+    <string name="confirm_password_hint">Confirmar contraseña</string>
+    <string name="email_hint">Correo electrónico</string>
+    <string name="identify">Identificate</string>
+    <string name="password_hint">Contraseña</string>
+    <string name="register">Registro</string>
+    <string name="register_button">Registrarse</string>
+    <string name="username_hint">Nombre de usuario</string>
+    <style name="Base.Theme.WambiShop" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="Theme.WambiShop" parent="Base.Theme.WambiShop"/>
+</resources>

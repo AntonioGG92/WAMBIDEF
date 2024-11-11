@@ -1,0 +1,498 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF0F5"
+    tools:context=".Tienda_Principal">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:text="Wambi Shop "
+        android:textColor="#F67D92"
+        android:textSize="30sp"
+        android:textStyle="bold"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.075"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.092" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/borde_gris"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/boton_acceder"
+        android:layout_width="360dp"
+        android:layout_height="47dp"
+        android:backgroundTint="@color/white"
+        android:text=""
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.17" />
+
+    <!-- DESLIZADOR DE MENU  -->
+
+    <HorizontalScrollView
+        android:id="@+id/horizontalScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="200dp"
+        android:scrollbars="none"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <LinearLayout
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:backgroundTintMode="src_in"
+                    android:clipToOutline="true"
+                    android:cropToPadding="true"
+                    android:outlineProvider="background"
+
+                    android:padding="5dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/fideos_horizontalscroll" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Noodles"
+                    android:textColor="@color/black"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:backgroundTintMode="src_in"
+                    android:clipToOutline="true"
+                    android:cropToPadding="true"
+                    android:outlineProvider="background"
+
+                    android:padding="5dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/salsasoja_horizontalscroll" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Salsas"
+                    android:textColor="@color/black"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:backgroundTintMode="src_in"
+                    android:clipToOutline="true"
+                    android:cropToPadding="true"
+                    android:outlineProvider="background"
+
+                    android:padding="5dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/dulces_horizontalscroll" />
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Dulces"
+                    android:textColor="@color/black"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Otras Categorías" />
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <ScrollView
+        android:scrollbars="none"
+        android:layout_width="350dp"
+        android:layout_height="500dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.929">
+
+        <!-- Contenedor de los botones en un GridLayout para que queden en 2 columnas -->
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="2"
+            android:rowCount="3"
+            android:padding="8dp">
+
+            <!-- Botón 1 -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="200dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:background="@android:color/white"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp">
+
+                <ImageView
+                    android:layout_width="104dp"
+                    android:layout_height="110dp"
+                    android:src="@drawable/sunleestickrice_scrollview" />
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="43dp"
+                    android:gravity="center"
+                    android:text="Sunlee Noodles De Arroz 10Mn 400g 3.75€"
+                    android:textColor="@android:color/black"
+                    android:textSize="12sp" />
+                <Button
+                    android:id="@+id/butto84n"
+                    android:layout_width="130dp"
+                    android:layout_height="35dp"
+                    android:backgroundTint="#F67D92"
+                    android:text="Añadir al Carrito"
+                    android:textSize="9dp"
+
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.497"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.688" />
+            </LinearLayout>
+
+            <!-- Botón 2 -->
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="0dp"
+                android:layout_height="200dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:background="@android:color/white"
+                android:layout_marginRight="10dp">
+
+                <ImageView
+                    android:layout_width="104dp"
+                    android:layout_height="110dp"
+                    android:src="@drawable/sunleestickrice_scrollview" />
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="43dp"
+                    android:gravity="center"
+                    android:text="Sunlee Noodles De Arroz 10Mn 400g 3.75€"
+                    android:textColor="@android:color/black"
+                    android:textSize="12sp" />
+                <Button
+                    android:id="@+id/button63"
+                    android:layout_width="130dp"
+                    android:layout_height="35dp"
+                    android:backgroundTint="#F67D92"
+                    android:text="Añadir al Carrito"
+                    android:textSize="9dp"
+
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.497"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.688" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="0dp"
+                android:layout_height="200dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:background="@android:color/white"
+                android:layout_marginRight="10dp">
+
+                <ImageView
+                    android:layout_width="104dp"
+                    android:layout_height="110dp"
+                    android:src="@drawable/sunleestickrice_scrollview" />
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="43dp"
+                    android:gravity="center"
+                    android:text="Sunlee Noodles De Arroz 10Mn 400g 3.75€"
+                    android:textColor="@android:color/black"
+                    android:textSize="12sp" />
+                <Button
+                    android:id="@+id/butto32n"
+                    android:layout_width="130dp"
+                    android:layout_height="35dp"
+                    android:backgroundTint="#F67D92"
+                    android:text="Añadir al Carrito"
+                    android:textSize="9dp"
+
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.497"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.688" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="0dp"
+                android:layout_height="200dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:background="@android:color/white"
+                android:layout_marginRight="10dp">
+
+                <ImageView
+                    android:layout_width="104dp"
+                    android:layout_height="110dp"
+                    android:src="@drawable/sunleestickrice_scrollview" />
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="43dp"
+                    android:gravity="center"
+                    android:text="Sunlee Noodles De Arroz 10Mn 400g 3.75€"
+                    android:textColor="@android:color/black"
+                    android:textSize="12sp" />
+                <Button
+                    android:id="@+id/button12"
+                    android:layout_width="130dp"
+                    android:layout_height="35dp"
+                    android:backgroundTint="#F67D92"
+                    android:text="Añadir al Carrito"
+                    android:textSize="9dp"
+
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.497"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.688" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="0dp"
+                android:layout_height="200dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:background="@android:color/white"
+                android:layout_marginRight="10dp">
+
+                <ImageView
+                    android:layout_width="104dp"
+                    android:layout_height="110dp"
+                    android:src="@drawable/sunleestickrice_scrollview" />
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="43dp"
+                    android:gravity="center"
+                    android:text="Sunlee Noodles De Arroz 10Mn 400g 3.75€"
+                    android:textColor="@android:color/black"
+                    android:textSize="12sp" />
+                <Button
+                    android:id="@+id/butt321on"
+                    android:layout_width="130dp"
+                    android:layout_height="35dp"
+                    android:backgroundTint="#F67D92"
+                    android:text="Añadir al Carrito"
+                    android:textSize="9dp"
+
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.497"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.688" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="0dp"
+                android:layout_height="200dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:background="@android:color/white"
+                android:layout_marginRight="10dp">
+
+                <ImageView
+                    android:layout_width="104dp"
+                    android:layout_height="110dp"
+                    android:src="@drawable/sunleestickrice_scrollview" />
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="43dp"
+                    android:gravity="center"
+                    android:text="Sunlee Noodles De Arroz 10Mn 400g 3.75€"
+                    android:textColor="@android:color/black"
+                    android:textSize="12sp" />
+                <Button
+                    android:id="@+id/butto22n"
+                    android:layout_width="130dp"
+                    android:layout_height="35dp"
+                    android:backgroundTint="#F67D92"
+                    android:text="Añadir al Carrito"
+                    android:textSize="9dp"
+
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.497"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.688" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="0dp"
+                android:layout_height="200dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:background="@android:color/white"
+                android:layout_marginRight="10dp">
+
+                <ImageView
+                    android:layout_width="104dp"
+                    android:layout_height="110dp"
+                    android:src="@drawable/sunleestickrice_scrollview" />
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="43dp"
+                    android:gravity="center"
+                    android:text="Sunlee Noodles De Arroz 10Mn 400g 3.75€"
+                    android:textColor="@android:color/black"
+                    android:textSize="12sp" />
+                <Button
+                    android:id="@+id/butto11n"
+                    android:layout_width="130dp"
+                    android:layout_height="35dp"
+                    android:backgroundTint="#F67D92"
+                    android:text="Añadir al Carrito"
+                    android:textSize="9dp"
+
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.497"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.688" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="0dp"
+                android:layout_height="200dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:background="@android:color/white"
+                android:layout_marginRight="10dp">
+
+                <ImageView
+                    android:layout_width="104dp"
+                    android:layout_height="110dp"
+                    android:src="@drawable/sunleestickrice_scrollview" />
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="43dp"
+                    android:gravity="center"
+                    android:text="Sunlee Noodles De Arroz 10Mn 400g 3.75€"
+                    android:textColor="@android:color/black"
+                    android:textSize="12sp" />
+                <Button
+                    android:id="@+id/butto333n"
+                    android:layout_width="130dp"
+                    android:layout_height="35dp"
+                    android:backgroundTint="#F67D92"
+                    android:text="Añadir al Carrito"
+                    android:textSize="9dp"
+
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.497"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.688" />
+            </LinearLayout>
+
+        </GridLayout>
+
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
