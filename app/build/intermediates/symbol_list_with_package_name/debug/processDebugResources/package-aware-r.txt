@@ -3285,7 +3285,6 @@ id hideable
 id home
 id homeAsUp
 id honorRequest
-id horizontalScrollView
 id horizontal_only
 id icon
 id icon_group
@@ -3452,6 +3451,7 @@ id scroll
 id scrollIndicatorDown
 id scrollIndicatorUp
 id scrollView
+id scrollView2
 id scrollable
 id search_badge
 id search_bar
@@ -3561,7 +3561,6 @@ id unlabeled
 id up
 id useLogo
 id vertical_only
-id view
 id view_offset_helper
 id view_transition
 id view_tree_lifecycle_owner

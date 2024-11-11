@@ -40,23 +40,6 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\alumno\\Desktop\\Wambi(CON REGISTER)\\app\\src\\main\\res\\values\\strings.xml",
-                    "from": {
-                        "startLines": "1,6,4,8,5,2,7,3",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "16,281,170,408,228,64,352,110",
-                        "endColumns": "47,70,57,49,52,45,55,59",
-                        "endOffsets": "59,347,223,453,276,105,403,165"
-                    },
-                    "to": {
-                        "startLines": "1967,1986,1987,1997,2105,2111,2112,2122",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "130324,132499,132570,133563,149201,150056,150102,151138",
-                        "endColumns": "47,70,57,49,52,45,55,59",
-                        "endOffsets": "130367,132565,132623,133608,149249,150097,150153,151193"
-                    }
-                },
-                {
                     "source": "C:\\Users\\alumno\\.gradle\\caches\\transforms-4\\1e1025fffa082dffe4cbe97f04a524a9\\transformed\\activity-1.8.0\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2,3",
@@ -112,24 +95,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\alumno\\Desktop\\Wambi(CON REGISTER)\\app\\src\\main\\res\\values\\colors.xml",
-                    "from": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "57,100",
-                        "endColumns": "41,41",
-                        "endOffsets": "94,137"
-                    },
-                    "to": {
-                        "startLines": "640,959",
-                        "startColumns": "4,4",
-                        "startOffsets": "32798,56476",
-                        "endColumns": "41,41",
-                        "endOffsets": "32835,56513"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\alumno\\Desktop\\Wambi(CON REGISTER)\\app\\src\\main\\res\\values\\themes.xml",
+                    "source": "D:\\REPOSITORIO\\ANDROID\\WAMBIDEF\\WAMBIDEF\\app\\src\\main\\res\\values\\themes.xml",
                     "from": {
                         "startLines": "2,7",
                         "startColumns": "4,4",
@@ -181,6 +147,40 @@
                         "startOffsets": "123371",
                         "endColumns": "53",
                         "endOffsets": "123420"
+                    }
+                },
+                {
+                    "source": "D:\\REPOSITORIO\\ANDROID\\WAMBIDEF\\WAMBIDEF\\app\\src\\main\\res\\values\\colors.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "57,100",
+                        "endColumns": "41,41",
+                        "endOffsets": "94,137"
+                    },
+                    "to": {
+                        "startLines": "640,959",
+                        "startColumns": "4,4",
+                        "startOffsets": "32798,56476",
+                        "endColumns": "41,41",
+                        "endOffsets": "32835,56513"
+                    }
+                },
+                {
+                    "source": "D:\\REPOSITORIO\\ANDROID\\WAMBIDEF\\WAMBIDEF\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "1,6,4,8,5,2,7,3",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "17,287,174,416,233,66,359,113",
+                        "endColumns": "47,70,57,49,52,45,55,59",
+                        "endOffsets": "60,353,227,461,281,107,410,168"
+                    },
+                    "to": {
+                        "startLines": "1967,1986,1987,1997,2105,2111,2112,2122",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "130324,132499,132570,133563,149201,150056,150102,151138",
+                        "endColumns": "47,70,57,49,52,45,55,59",
+                        "endOffsets": "130367,132565,132623,133608,149249,150097,150153,151193"
                     }
                 },
                 {
