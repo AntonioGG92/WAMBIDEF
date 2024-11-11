@@ -9,6 +9,8 @@
     tools:context=".Tienda_Principal">
 
 
+    <!-- DESLIZADOR DE MENU  -->
+
     <TextView
         android:id="@+id/textView"
         android:layout_width="200dp"
@@ -23,48 +25,27 @@
         app:layout_constraintHorizontal_bias="0.075"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.092" />
-
-    <View
-        android:id="@+id/view"
-        android:layout_width="match_parent"
-        android:layout_height="60dp"
-        android:background="@drawable/borde_gris"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
-
-    <Button
-        android:id="@+id/boton_acceder"
-        android:layout_width="360dp"
-        android:layout_height="47dp"
-        android:backgroundTint="@color/white"
-        android:text=""
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.17" />
-
-    <!-- DESLIZADOR DE MENU  -->
+        app:layout_constraintVertical_bias="0.041" />
 
     <HorizontalScrollView
-        android:id="@+id/horizontalScrollView"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:paddingTop="200dp"
-        android:scrollbars="none"
-        tools:ignore="MissingConstraints">
+        android:layout_height="130dp"
+
+        app:layout_constraintBottom_toTopOf="@+id/scrollView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="90dp"
+        android:scrollbars="none">
 
         <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
+            android:layout_width="413dp"
+            android:layout_height="128dp"
+
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
 
 
             <LinearLayout
@@ -155,17 +136,22 @@
             </LinearLayout>
 
             <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="63dp"
+                android:layout_height="match_parent"
                 android:text="Otras Categorías" />
 
         </LinearLayout>
     </HorizontalScrollView>
 
+
+
+
     <ScrollView
-        android:scrollbars="none"
+        android:id="@+id/scrollView2"
         android:layout_width="350dp"
         android:layout_height="500dp"
+        android:scrollbars="none"
+        android:layout_marginTop="600dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.491"
@@ -178,8 +164,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:columnCount="2"
-            android:rowCount="3"
-            android:padding="8dp">
+            android:padding="8dp"
+            android:rowCount="3">
 
             <!-- Botón 1 -->
             <LinearLayout
@@ -187,11 +173,11 @@
                 android:layout_height="200dp"
                 android:layout_rowWeight="1"
                 android:layout_columnWeight="1"
-                android:orientation="vertical"
-                android:gravity="center"
-                android:background="@android:color/white"
+                android:layout_marginTop="10dp"
                 android:layout_marginRight="10dp"
-                android:layout_marginTop="10dp">
+                android:background="@android:color/white"
+                android:gravity="center"
+                android:orientation="vertical">
 
                 <ImageView
                     android:layout_width="104dp"
@@ -205,6 +191,7 @@
                     android:text="Sunlee Noodles De Arroz 10Mn 400g 3.75€"
                     android:textColor="@android:color/black"
                     android:textSize="12sp" />
+
                 <Button
                     android:id="@+id/butto84n"
                     android:layout_width="130dp"
@@ -223,15 +210,15 @@
 
             <!-- Botón 2 -->
             <LinearLayout
-                android:layout_marginTop="10dp"
                 android:layout_width="0dp"
                 android:layout_height="200dp"
                 android:layout_rowWeight="1"
                 android:layout_columnWeight="1"
-                android:orientation="vertical"
-                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
                 android:background="@android:color/white"
-                android:layout_marginRight="10dp">
+                android:gravity="center"
+                android:orientation="vertical">
 
                 <ImageView
                     android:layout_width="104dp"
@@ -245,6 +232,7 @@
                     android:text="Sunlee Noodles De Arroz 10Mn 400g 3.75€"
                     android:textColor="@android:color/black"
                     android:textSize="12sp" />
+
                 <Button
                     android:id="@+id/button63"
                     android:layout_width="130dp"
@@ -262,15 +250,15 @@
             </LinearLayout>
 
             <LinearLayout
-                android:layout_marginTop="10dp"
                 android:layout_width="0dp"
                 android:layout_height="200dp"
                 android:layout_rowWeight="1"
                 android:layout_columnWeight="1"
-                android:orientation="vertical"
-                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
                 android:background="@android:color/white"
-                android:layout_marginRight="10dp">
+                android:gravity="center"
+                android:orientation="vertical">
 
                 <ImageView
                     android:layout_width="104dp"
@@ -284,6 +272,7 @@
                     android:text="Sunlee Noodles De Arroz 10Mn 400g 3.75€"
                     android:textColor="@android:color/black"
                     android:textSize="12sp" />
+
                 <Button
                     android:id="@+id/butto32n"
                     android:layout_width="130dp"
@@ -299,16 +288,17 @@
                     app:layout_constraintTop_toTopOf="parent"
                     app:layout_constraintVertical_bias="0.688" />
             </LinearLayout>
+
             <LinearLayout
-                android:layout_marginTop="10dp"
                 android:layout_width="0dp"
                 android:layout_height="200dp"
                 android:layout_rowWeight="1"
                 android:layout_columnWeight="1"
-                android:orientation="vertical"
-                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
                 android:background="@android:color/white"
-                android:layout_marginRight="10dp">
+                android:gravity="center"
+                android:orientation="vertical">
 
                 <ImageView
                     android:layout_width="104dp"
@@ -322,6 +312,7 @@
                     android:text="Sunlee Noodles De Arroz 10Mn 400g 3.75€"
                     android:textColor="@android:color/black"
                     android:textSize="12sp" />
+
                 <Button
                     android:id="@+id/button12"
                     android:layout_width="130dp"
@@ -337,16 +328,17 @@
                     app:layout_constraintTop_toTopOf="parent"
                     app:layout_constraintVertical_bias="0.688" />
             </LinearLayout>
+
             <LinearLayout
-                android:layout_marginTop="10dp"
                 android:layout_width="0dp"
                 android:layout_height="200dp"
                 android:layout_rowWeight="1"
                 android:layout_columnWeight="1"
-                android:orientation="vertical"
-                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
                 android:background="@android:color/white"
-                android:layout_marginRight="10dp">
+                android:gravity="center"
+                android:orientation="vertical">
 
                 <ImageView
                     android:layout_width="104dp"
@@ -360,6 +352,7 @@
                     android:text="Sunlee Noodles De Arroz 10Mn 400g 3.75€"
                     android:textColor="@android:color/black"
                     android:textSize="12sp" />
+
                 <Button
                     android:id="@+id/butt321on"
                     android:layout_width="130dp"
@@ -375,16 +368,17 @@
                     app:layout_constraintTop_toTopOf="parent"
                     app:layout_constraintVertical_bias="0.688" />
             </LinearLayout>
+
             <LinearLayout
-                android:layout_marginTop="10dp"
                 android:layout_width="0dp"
                 android:layout_height="200dp"
                 android:layout_rowWeight="1"
                 android:layout_columnWeight="1"
-                android:orientation="vertical"
-                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
                 android:background="@android:color/white"
-                android:layout_marginRight="10dp">
+                android:gravity="center"
+                android:orientation="vertical">
 
                 <ImageView
                     android:layout_width="104dp"
@@ -398,6 +392,7 @@
                     android:text="Sunlee Noodles De Arroz 10Mn 400g 3.75€"
                     android:textColor="@android:color/black"
                     android:textSize="12sp" />
+
                 <Button
                     android:id="@+id/butto22n"
                     android:layout_width="130dp"
@@ -413,16 +408,17 @@
                     app:layout_constraintTop_toTopOf="parent"
                     app:layout_constraintVertical_bias="0.688" />
             </LinearLayout>
+
             <LinearLayout
-                android:layout_marginTop="10dp"
                 android:layout_width="0dp"
                 android:layout_height="200dp"
                 android:layout_rowWeight="1"
                 android:layout_columnWeight="1"
-                android:orientation="vertical"
-                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
                 android:background="@android:color/white"
-                android:layout_marginRight="10dp">
+                android:gravity="center"
+                android:orientation="vertical">
 
                 <ImageView
                     android:layout_width="104dp"
@@ -436,6 +432,7 @@
                     android:text="Sunlee Noodles De Arroz 10Mn 400g 3.75€"
                     android:textColor="@android:color/black"
                     android:textSize="12sp" />
+
                 <Button
                     android:id="@+id/butto11n"
                     android:layout_width="130dp"
@@ -451,16 +448,17 @@
                     app:layout_constraintTop_toTopOf="parent"
                     app:layout_constraintVertical_bias="0.688" />
             </LinearLayout>
+
             <LinearLayout
-                android:layout_marginTop="10dp"
                 android:layout_width="0dp"
                 android:layout_height="200dp"
                 android:layout_rowWeight="1"
                 android:layout_columnWeight="1"
-                android:orientation="vertical"
-                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
                 android:background="@android:color/white"
-                android:layout_marginRight="10dp">
+                android:gravity="center"
+                android:orientation="vertical">
 
                 <ImageView
                     android:layout_width="104dp"
@@ -474,6 +472,7 @@
                     android:text="Sunlee Noodles De Arroz 10Mn 400g 3.75€"
                     android:textColor="@android:color/black"
                     android:textSize="12sp" />
+
                 <Button
                     android:id="@+id/butto333n"
                     android:layout_width="130dp"
@@ -493,6 +492,8 @@
         </GridLayout>
 
     </ScrollView>
+
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
