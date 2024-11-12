@@ -9,7 +9,7 @@
     tools:context=".Tienda_Principal">
 
 
-    <!-- DESLIZADOR DE MENU  -->
+    <!-- DESLIZADOR DE MENU  sadasd  -->
 
     <TextView
         android:id="@+id/textView"
