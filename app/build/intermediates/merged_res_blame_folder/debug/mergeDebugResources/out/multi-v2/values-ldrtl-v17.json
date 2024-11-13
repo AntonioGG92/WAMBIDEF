@@ -4,7 +4,7 @@
             "outputFile": "com.example.wambishop.app-mergeDebugResources-29:/values-ldrtl-v17/values-ldrtl-v17.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\alumno\\.gradle\\caches\\transforms-4\\339bfe905bef2f66b5c7ec6f545fdb59\\transformed\\material-1.10.0\\res\\values-ldrtl-v17\\values-ldrtl-v17.xml",
+                    "source": "C:\\Users\\marta\\.gradle\\caches\\transforms-4\\339bfe905bef2f66b5c7ec6f545fdb59\\transformed\\material-1.10.0\\res\\values-ldrtl-v17\\values-ldrtl-v17.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",

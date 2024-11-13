@@ -7,4 +7,13 @@
     <string name="confirm_password_hint">Confirmar contraseña</string>
     <string name="register_button">Registrarse</string>
     <string name="identify">Identificate</string>
+    <string name="add_to_cart">Añadir al carrito</string>
+    <string name="product_name">Sunlee Noodles De Arroz 10Mm 400G</string>
+    <string name="product_price">3,75€</string>
+    <string name="product_image">Imagen del producto</string>
+    <string name="favorite_button">Añadir a favoritos</string>
+    <string name="share_button">Compartir</string>
+    <string name="cart_button">Carrito</string>
+    <string name="back_button">Atrás</string>
+
 </resources>

@@ -28,6 +28,9 @@
         android:testOnly="true"
         android:theme="@style/Theme.WambiShop" >
         <activity
+            android:name="com.example.wambishop.Tienda_Secundaria"
+            android:exported="false" />
+        <activity
             android:name="com.example.wambishop.Tienda_Principal"
             android:exported="false" />
         <activity

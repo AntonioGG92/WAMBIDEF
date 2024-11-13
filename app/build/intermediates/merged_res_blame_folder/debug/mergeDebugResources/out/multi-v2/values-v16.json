@@ -4,7 +4,7 @@
             "outputFile": "com.example.wambishop.app-mergeDebugResources-29:/values-v16/values-v16.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\alumno\\.gradle\\caches\\transforms-4\\a043723e00730d8898c901431cc0cf2e\\transformed\\core-1.10.1\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\marta\\.gradle\\caches\\transforms-4\\a043723e00730d8898c901431cc0cf2e\\transformed\\core-1.10.1\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\alumno\\.gradle\\caches\\transforms-4\\7125aa3367f80187ee2e0c7c1271c2f5\\transformed\\appcompat-1.6.1\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\marta\\.gradle\\caches\\transforms-4\\7125aa3367f80187ee2e0c7c1271c2f5\\transformed\\appcompat-1.6.1\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TiendaSecundaria">
+
+    <!-- Imagen del Producto -->
+    <ImageView
+        android:id="@+id/productImage"
+        android:layout_width="200dp"
+        android:layout_height="250dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="20dp"
+        android:contentDescription="@string/product_image"
+        android:src="@drawable/fideos" />
+
+    <!-- Nombre del Producto -->
+    <TextView
+        android:id="@+id/productName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/productImage"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"
+        android:text="@string/product_name"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <!-- Precio del Producto -->
+    <TextView
+        android:id="@+id/productPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/productName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="8dp"
+        android:text="@string/product_price"
+        android:textSize="16sp"
+        android:textColor="@color/black" />
+
+    <!-- Botón Añadir al Carrito -->
+    <Button
+        android:id="@+id/addToCartButton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/productPrice"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#F67D92"
+        android:text="@string/add_to_cart" />
+
+    <!-- Botón Favorito con tamaño adecuado para la accesibilidad -->
+    <ImageButton
+        android:id="@+id/favoriteButton"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        app:layout_constraintTop_toTopOf="@id/addToCartButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginEnd="16dp"
+        android:contentDescription="@string/favorite_button"
+        android:src="@drawable/ic_favorite_border" />
+
+    <!-- Barra de Navegación Inferior -->
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigationView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:menu="@menu/bottom_nav_menu" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
