@@ -10,6 +10,8 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.appcompat.widget.Toolbar;
+import androidx.cardview.widget.CardView;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
@@ -27,7 +29,16 @@ public final class ActivityTiendaSecundariaBinding implements ViewBinding {
   public final Button addToCartButton;
 
   @NonNull
+  public final ImageButton backButton;
+
+  @NonNull
   public final BottomNavigationView bottomNavigationView;
+
+  @NonNull
+  public final ImageButton cartButton;
+
+  @NonNull
+  public final CardView detailsContainer;
 
   @NonNull
   public final ImageButton favoriteButton;
@@ -41,17 +52,30 @@ public final class ActivityTiendaSecundariaBinding implements ViewBinding {
   @NonNull
   public final TextView productPrice;
 
+  @NonNull
+  public final ImageButton shareButton;
+
+  @NonNull
+  public final Toolbar toolbar;
+
   private ActivityTiendaSecundariaBinding(@NonNull ConstraintLayout rootView,
-      @NonNull Button addToCartButton, @NonNull BottomNavigationView bottomNavigationView,
-      @NonNull ImageButton favoriteButton, @NonNull ImageView productImage,
-      @NonNull TextView productName, @NonNull TextView productPrice) {
+      @NonNull Button addToCartButton, @NonNull ImageButton backButton,
+      @NonNull BottomNavigationView bottomNavigationView, @NonNull ImageButton cartButton,
+      @NonNull CardView detailsContainer, @NonNull ImageButton favoriteButton,
+      @NonNull ImageView productImage, @NonNull TextView productName,
+      @NonNull TextView productPrice, @NonNull ImageButton shareButton, @NonNull Toolbar toolbar) {
     this.rootView = rootView;
     this.addToCartButton = addToCartButton;
+    this.backButton = backButton;
     this.bottomNavigationView = bottomNavigationView;
+    this.cartButton = cartButton;
+    this.detailsContainer = detailsContainer;
     this.favoriteButton = favoriteButton;
     this.productImage = productImage;
     this.productName = productName;
     this.productPrice = productPrice;
+    this.shareButton = shareButton;
+    this.toolbar = toolbar;
   }
 
   @Override
@@ -87,9 +111,27 @@ public final class ActivityTiendaSecundariaBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.backButton;
+      ImageButton backButton = ViewBindings.findChildViewById(rootView, id);
+      if (backButton == null) {
+        break missingId;
+      }
+
       id = R.id.bottomNavigationView;
       BottomNavigationView bottomNavigationView = ViewBindings.findChildViewById(rootView, id);
       if (bottomNavigationView == null) {
+        break missingId;
+      }
+
+      id = R.id.cartButton;
+      ImageButton cartButton = ViewBindings.findChildViewById(rootView, id);
+      if (cartButton == null) {
+        break missingId;
+      }
+
+      id = R.id.detailsContainer;
+      CardView detailsContainer = ViewBindings.findChildViewById(rootView, id);
+      if (detailsContainer == null) {
         break missingId;
       }
 
@@ -117,8 +159,21 @@ public final class ActivityTiendaSecundariaBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.shareButton;
+      ImageButton shareButton = ViewBindings.findChildViewById(rootView, id);
+      if (shareButton == null) {
+        break missingId;
+      }
+
+      id = R.id.toolbar;
+      Toolbar toolbar = ViewBindings.findChildViewById(rootView, id);
+      if (toolbar == null) {
+        break missingId;
+      }
+
       return new ActivityTiendaSecundariaBinding((ConstraintLayout) rootView, addToCartButton,
-          bottomNavigationView, favoriteButton, productImage, productName, productPrice);
+          backButton, bottomNavigationView, cartButton, detailsContainer, favoriteButton,
+          productImage, productName, productPrice, shareButton, toolbar);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

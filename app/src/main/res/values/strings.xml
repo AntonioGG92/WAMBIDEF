@@ -15,5 +15,22 @@
     <string name="share_button">Compartir</string>
     <string name="cart_button">Carrito</string>
     <string name="back_button">Atrás</string>
+    <string name="delete_button">Eliminar producto</string>
+    <string name="product_name_example">Nombre del Producto</string>
+    <string name="product_price_example">3,75€</string>
+    <string name="decrease_button">Disminuir</string>
+    <string name="increase_button">Aumentar</string>
+    <string name="decrease_button_desc">Botón para disminuir la cantidad</string>
+    <string name="increase_button_desc">Botón para aumentar la cantidad</string>
+    <string name="quantity_default">1</string>
+    <string name="toolbar_title">Cesta</string>
+    <string name="quantity_text">Cantidad del Producto</string>
+    <string name="buy_button">COMPRAR</string>
+    <string name="select_all">Todo</string>
+    <string name="product_price_format">%1$.2f€</string>
+    <string name="product_name_sunlee_noodles">Sunlee Noodles De Arroz 10Mm 400G</string>
+    <string name="product_name_lechuga_marina">Lechuga Marina 100G</string>
+    <string name="total_price">Precio Total:</string>
+    <string name="select_product">Seleccionar producto</string>
 
 </resources>
