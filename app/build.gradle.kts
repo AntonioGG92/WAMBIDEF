@@ -15,6 +15,11 @@ android {
         versionName = "1.0"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+
+        // Activar el uso de Vector Drawables en versiones anteriores de Android
+        vectorDrawables {
+            useSupportLibrary = true
+        }
     }
 
     buildTypes {
@@ -28,8 +33,8 @@ android {
     }
 
     // Añadir View Binding aquí
-    viewBinding {
-        enable = true
+    buildFeatures {
+        viewBinding = true
     }
 
     compileOptions {
@@ -42,7 +47,6 @@ android {
 }
 
 dependencies {
-
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)
