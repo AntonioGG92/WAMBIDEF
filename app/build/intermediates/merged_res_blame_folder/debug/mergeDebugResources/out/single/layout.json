@@ -1,22 +1,26 @@
 [
     {
-        "merged": "C:\\Users\\marta\\.gradle\\daemon\\8.7\\com.example.wambishop.app-mergeDebugResources-30:\\layout\\activity_register.xml",
-        "source": "C:\\Users\\marta\\.gradle\\daemon\\8.7\\com.example.wambishop.app-main-33:\\layout\\activity_register.xml"
+        "merged": "com.example.wambishop.app-mergeDebugResources-30:/layout/activity_register.xml",
+        "source": "com.example.wambishop.app-main-33:/layout/activity_register.xml"
     },
     {
-        "merged": "C:\\Users\\marta\\.gradle\\daemon\\8.7\\com.example.wambishop.app-mergeDebugResources-30:\\layout\\activity_main.xml",
-        "source": "C:\\Users\\marta\\.gradle\\daemon\\8.7\\com.example.wambishop.app-main-33:\\layout\\activity_main.xml"
+        "merged": "com.example.wambishop.app-mergeDebugResources-30:/layout/activity_tienda_principal.xml",
+        "source": "com.example.wambishop.app-main-33:/layout/activity_tienda_principal.xml"
     },
     {
-        "merged": "C:\\Users\\marta\\.gradle\\daemon\\8.7\\com.example.wambishop.app-mergeDebugResources-30:\\layout\\activity_tienda_secundaria.xml",
-        "source": "C:\\Users\\marta\\.gradle\\daemon\\8.7\\com.example.wambishop.app-main-33:\\layout\\activity_tienda_secundaria.xml"
+        "merged": "com.example.wambishop.app-mergeDebugResources-30:/layout/activity_carrito.xml",
+        "source": "com.example.wambishop.app-main-33:/layout/activity_carrito.xml"
     },
     {
-        "merged": "C:\\Users\\marta\\.gradle\\daemon\\8.7\\com.example.wambishop.app-mergeDebugResources-30:\\layout\\activity_tienda_principal.xml",
-        "source": "C:\\Users\\marta\\.gradle\\daemon\\8.7\\com.example.wambishop.app-main-33:\\layout\\activity_tienda_principal.xml"
+        "merged": "com.example.wambishop.app-mergeDebugResources-30:/layout/activity_main.xml",
+        "source": "com.example.wambishop.app-main-33:/layout/activity_main.xml"
     },
     {
         "merged": "com.example.wambishop.app-mergeDebugResources-30:/layout/activity_tienda_secundaria.xml",
         "source": "com.example.wambishop.app-main-33:/layout/activity_tienda_secundaria.xml"
+    },
+    {
+        "merged": "com.example.wambishop.app-mergeDebugResources-30:/layout/item_cesta_producto.xml",
+        "source": "com.example.wambishop.app-main-33:/layout/item_cesta_producto.xml"
     }
 ]
