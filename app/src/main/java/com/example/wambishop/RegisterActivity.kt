@@ -7,9 +7,7 @@ import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
 import com.example.wambishop.R.*
 
-/**
- * Loads Register Activity for user registration.
- */
+
 class RegisterActivity : AppCompatActivity() {
 
     @SuppressLint("MissingInflatedId")
