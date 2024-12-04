@@ -6,7 +6,7 @@
     <string name="password_hint">Contraseña</string>
     <string name="confirm_password_hint">Confirmar contraseña</string>
     <string name="register_button">Registrarse</string>
-    <string name="identify">Identificate</string>
+    <string name="identify">Identifícate</string>
     <string name="add_to_cart">Añadir al carrito</string>
     <string name="product_name">Sunlee Noodles De Arroz 10Mm 400G</string>
     <string name="product_price">3,75€</string>
@@ -32,5 +32,17 @@
     <string name="product_name_lechuga_marina">Lechuga Marina 100G</string>
     <string name="total_price">Precio Total:</string>
     <string name="select_product">Seleccionar producto</string>
+    <string name="wambi_shop_title">Wambi Shop</string>
+    <string name="hinted_search_text">Hinted search text</string>
+    <string name="noodles_category">Categoría de Noodles</string>
+    <string name="sauces_category">Categoría de Salsas</string>
+    <string name="sweets_category">Categoría de Dulces</string>
+    <string name="noodles">Noodles</string>
+    <string name="sauces">Salsas/Aceites</string>
+    <string name="sweets">Dulces</string>
+    <string name="home_button">Inicio</string>
+    <string name="search_bottom_button">Buscar</string>
+    <string name="profile_button">Perfil</string>
+    <string name="search_button">Buscar</string>
 
 </resources>
