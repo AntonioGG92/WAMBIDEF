@@ -13,9 +13,13 @@
     <string name="delete_button">Eliminar producto</string>
     <string name="email_hint">Correo electrónico</string>
     <string name="favorite_button">Añadir a favoritos</string>
-    <string name="identify">Identificate</string>
+    <string name="hinted_search_text">Hinted search text</string>
+    <string name="home_button">Inicio</string>
+    <string name="identify">Identifícate</string>
     <string name="increase_button">Aumentar</string>
     <string name="increase_button_desc">Botón para aumentar la cantidad</string>
+    <string name="noodles">Noodles</string>
+    <string name="noodles_category">Categoría de Noodles</string>
     <string name="password_hint">Contraseña</string>
     <string name="product_image">Imagen del producto</string>
     <string name="product_name">Sunlee Noodles De Arroz 10Mm 400G</string>
@@ -25,16 +29,24 @@
     <string name="product_price">3,75€</string>
     <string name="product_price_example">3,75€</string>
     <string name="product_price_format">%1$.2f€</string>
+    <string name="profile_button">Perfil</string>
     <string name="quantity_default">1</string>
     <string name="quantity_text">Cantidad del Producto</string>
     <string name="register">Registro</string>
     <string name="register_button">Registrarse</string>
+    <string name="sauces">Salsas/Aceites</string>
+    <string name="sauces_category">Categoría de Salsas</string>
+    <string name="search_bottom_button">Buscar</string>
+    <string name="search_button">Buscar</string>
     <string name="select_all">Todo</string>
     <string name="select_product">Seleccionar producto</string>
     <string name="share_button">Compartir</string>
+    <string name="sweets">Dulces</string>
+    <string name="sweets_category">Categoría de Dulces</string>
     <string name="toolbar_title">Cesta</string>
     <string name="total_price">Precio Total:</string>
     <string name="username_hint">Nombre de usuario</string>
+    <string name="wambi_shop_title">Wambi Shop</string>
     <style name="Base.Theme.WambiShop" parent="Theme.Material3.DayNight.NoActionBar">
         
         
