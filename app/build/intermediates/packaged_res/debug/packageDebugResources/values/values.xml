@@ -18,6 +18,7 @@
     <string name="identify">Identifícate</string>
     <string name="increase_button">Aumentar</string>
     <string name="increase_button_desc">Botón para aumentar la cantidad</string>
+    <string name="logout">Desconectarse</string>
     <string name="noodles">Noodles</string>
     <string name="noodles_category">Categoría de Noodles</string>
     <string name="password_hint">Contraseña</string>
@@ -30,6 +31,8 @@
     <string name="product_price_example">3,75€</string>
     <string name="product_price_format">%1$.2f€</string>
     <string name="profile_button">Perfil</string>
+    <string name="profile_image">Imagen de perfil</string>
+    <string name="profile_title">Perfil</string>
     <string name="quantity_default">1</string>
     <string name="quantity_text">Cantidad del Producto</string>
     <string name="register">Registro</string>

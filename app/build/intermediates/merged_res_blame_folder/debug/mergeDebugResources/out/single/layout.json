@@ -12,6 +12,14 @@
         "source": "com.example.wambishop.app-main-33:/layout/activity_carrito.xml"
     },
     {
+        "merged": "com.example.wambishop.app-mergeDebugResources-30:/layout/activity_perfil.xml",
+        "source": "com.example.wambishop.app-main-33:/layout/activity_perfil.xml"
+    },
+    {
+        "merged": "com.example.wambishop.app-mergeDebugResources-30:/layout/activity_confirmacion_pedido.xml",
+        "source": "com.example.wambishop.app-main-33:/layout/activity_confirmacion_pedido.xml"
+    },
+    {
         "merged": "com.example.wambishop.app-mergeDebugResources-30:/layout/activity_main.xml",
         "source": "com.example.wambishop.app-main-33:/layout/activity_main.xml"
     },

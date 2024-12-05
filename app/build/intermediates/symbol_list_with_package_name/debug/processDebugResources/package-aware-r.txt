@@ -2959,7 +2959,10 @@ drawable design_snackbar_background
 drawable dulces_horizontalscroll
 drawable fideos_horizontalmenu
 drawable fideos_horizontalscroll
+drawable ic_apple_pay
+drawable ic_arrow_back
 drawable ic_arrow_back_black_24
+drawable ic_arrow_forward
 drawable ic_call_answer
 drawable ic_call_answer_low
 drawable ic_call_answer_video
@@ -2969,11 +2972,13 @@ drawable ic_call_decline_low
 drawable ic_cart
 drawable ic_clear_black_24
 drawable ic_clock_black_24dp
+drawable ic_credit_card
 drawable ic_favorite_border
 drawable ic_home
 drawable ic_keyboard_black_24dp
 drawable ic_launcher_background
 drawable ic_launcher_foreground
+drawable ic_location
 drawable ic_m3_chip_check
 drawable ic_m3_chip_checked_circle
 drawable ic_m3_chip_close
@@ -2982,6 +2987,7 @@ drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
+drawable ic_paypal
 drawable ic_profile
 drawable ic_search
 drawable ic_search_black_24
@@ -3143,6 +3149,8 @@ id actions
 id activity_chooser_view_content
 id add
 id addToCartButton
+id addressIcon
+id addressText
 id alertTitle
 id aligned
 id all
@@ -3152,6 +3160,7 @@ id animateToEnd
 id animateToStart
 id antiClockwise
 id anticipate
+id applePayOption
 id arc
 id asConfigured
 id async
@@ -3222,6 +3231,7 @@ id coordinator
 id cos
 id counterclockwise
 id cradle
+id creditCardOption
 id currentState
 id custom
 id customPanel
@@ -3289,6 +3299,7 @@ id fixed
 id flip
 id floating
 id forever
+id forwardIcon
 id fragment_container_view_tag
 id frost
 id fullscreen_header
@@ -3337,6 +3348,7 @@ id line3
 id linear
 id listMode
 id list_item
+id logoutButton
 id m3_side_sheet
 id main
 id marquee
@@ -3398,6 +3410,7 @@ id mtrl_picker_text_input_range_start
 id mtrl_picker_title_text
 id mtrl_view_tag_bottom_padding
 id multiply
+id nameText
 id navigation_bar_item_active_indicator_view
 id navigation_bar_item_icon_container
 id navigation_bar_item_icon_view
@@ -3445,8 +3458,11 @@ id parent_matrix
 id password_toggle
 id path
 id pathRelative
+id payButton
+id paypalOption
 id peekHeight
 id percent
+id phoneText
 id pin
 id position
 id postLayout
@@ -3455,13 +3471,17 @@ id productCheckBox
 id productImage
 id productName
 id productPrice
+id productQuantity
 id profileButton
+id profileImage
 id progress_circular
 id progress_horizontal
 id quantityContainer
 id quantityText
 id radio
 id ratio
+id recipientAddress
+id recipientName
 id rectangles
 id recyclerView
 id registration
@@ -3576,6 +3596,7 @@ id textinput_suffix_text
 id time
 id title
 id titleDividerNoCustom
+id titleText
 id title_template
 id toggle
 id toolbar
@@ -3731,7 +3752,9 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_carrito
+layout activity_confirmacion_pedido
 layout activity_main
+layout activity_perfil
 layout activity_register
 layout activity_tienda_principal
 layout activity_tienda_secundaria
@@ -3887,6 +3910,7 @@ string identify
 string increase_button
 string increase_button_desc
 string item_view_role_description
+string logout
 string m3_exceed_max_badge_text_suffix
 string m3_ref_typeface_brand_medium
 string m3_ref_typeface_brand_regular
@@ -4004,6 +4028,8 @@ string product_price
 string product_price_example
 string product_price_format
 string profile_button
+string profile_image
+string profile_title
 string quantity_default
 string quantity_text
 string register

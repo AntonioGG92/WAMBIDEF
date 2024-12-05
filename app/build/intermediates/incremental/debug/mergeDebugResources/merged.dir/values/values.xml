@@ -2009,6 +2009,7 @@
     <string name="increase_button">Aumentar</string>
     <string name="increase_button_desc">Botón para aumentar la cantidad</string>
     <string name="item_view_role_description">Tab</string>
+    <string name="logout">Desconectarse</string>
     <string name="m3_exceed_max_badge_text_suffix" translatable="false"><ns2:g example="Some te" id="part of a long text">%1$s</ns2:g><ns2:g example="…" id="suffix">%2$s</ns2:g></string>
     <string name="m3_ref_typeface_brand_medium" translatable="false">sans-serif-medium</string>
     <string name="m3_ref_typeface_brand_regular" translatable="false">sans-serif</string>
@@ -2132,6 +2133,8 @@
     <string name="product_price_example">3,75€</string>
     <string name="product_price_format">%1$.2f€</string>
     <string name="profile_button">Perfil</string>
+    <string name="profile_image">Imagen de perfil</string>
+    <string name="profile_title">Perfil</string>
     <string name="quantity_default">1</string>
     <string name="quantity_text">Cantidad del Producto</string>
     <string name="register">Registro</string>

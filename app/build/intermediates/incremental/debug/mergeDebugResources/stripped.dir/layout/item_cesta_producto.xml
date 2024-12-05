@@ -38,7 +38,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
-        android:text="Nombre del Producto"
+        android:text="@string/product_name"
         android:textSize="16sp"
         android:textStyle="bold"
         android:textColor="@android:color/black"
@@ -52,7 +52,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="4dp"
-        android:text="3,75€"
+        android:text="@string/product_price"
         android:textSize="14sp"
         android:textColor="@android:color/black"
         app:layout_constraintTop_toBottomOf="@id/productName"
@@ -85,8 +85,8 @@
         <!-- Botón para disminuir la cantidad -->
         <Button
             android:id="@+id/decreaseButton"
-            android:layout_width="40dp"
-            android:layout_height="40dp"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
             android:text="-"
             android:background="?attr/selectableItemBackgroundBorderless"
             android:textSize="18sp"
@@ -106,8 +106,8 @@
         <!-- Botón para aumentar la cantidad -->
         <Button
             android:id="@+id/increaseButton"
-            android:layout_width="40dp"
-            android:layout_height="40dp"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
             android:text="+"
             android:background="?attr/selectableItemBackgroundBorderless"
             android:textSize="18sp"
@@ -115,3 +115,4 @@
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
+

@@ -44,5 +44,7 @@
     <string name="search_bottom_button">Buscar</string>
     <string name="profile_button">Perfil</string>
     <string name="search_button">Buscar</string>
-
+    <string name="profile_title">Perfil</string>
+    <string name="profile_image">Imagen de perfil</string>
+    <string name="logout">Desconectarse</string>
 </resources>

@@ -1,27 +1,15 @@
 [
     {
-        "merged": "com.example.wambishop.app-debug-31:/menu_bottom_nav_menu.xml.flat",
-        "source": "com.example.wambishop.app-main-33:/menu/bottom_nav_menu.xml"
+        "merged": "com.example.wambishop.app-debug-31:/drawable_ic_arrow_back.xml.flat",
+        "source": "com.example.wambishop.app-main-33:/drawable/ic_arrow_back.xml"
     },
     {
         "merged": "com.example.wambishop.app-debug-31:/layout_item_cesta_producto.xml.flat",
         "source": "com.example.wambishop.app-main-33:/layout/item_cesta_producto.xml"
     },
     {
-        "merged": "com.example.wambishop.app-debug-31:/drawable_ic_menu_share.xml.flat",
-        "source": "com.example.wambishop.app-main-33:/drawable/ic_menu_share.xml"
-    },
-    {
-        "merged": "com.example.wambishop.app-debug-31:/drawable_dulces_horizontalscroll.png.flat",
-        "source": "com.example.wambishop.app-main-33:/drawable/dulces_horizontalscroll.png"
-    },
-    {
         "merged": "com.example.wambishop.app-debug-31:/drawable_lechuga_image.png.flat",
         "source": "com.example.wambishop.app-main-33:/drawable/lechuga_image.png"
-    },
-    {
-        "merged": "com.example.wambishop.app-debug-31:/mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.wambishop.app-main-33:/mipmap-hdpi/ic_launcher_round.webp"
     },
     {
         "merged": "com.example.wambishop.app-debug-31:/xml_backup_rules.xml.flat",
@@ -32,44 +20,16 @@
         "source": "com.example.wambishop.app-main-33:/drawable/volver.png"
     },
     {
-        "merged": "com.example.wambishop.app-debug-31:/drawable_fideos_horizontalmenu.jpeg.flat",
-        "source": "com.example.wambishop.app-main-33:/drawable/fideos_horizontalmenu.jpeg"
+        "merged": "com.example.wambishop.app-debug-31:/drawable_ic_search.xml.flat",
+        "source": "com.example.wambishop.app-main-33:/drawable/ic_search.xml"
     },
     {
         "merged": "com.example.wambishop.app-debug-31:/layout_activity_register.xml.flat",
         "source": "com.example.wambishop.app-main-33:/layout/activity_register.xml"
     },
     {
-        "merged": "com.example.wambishop.app-debug-31:/drawable_ic_search.xml.flat",
-        "source": "com.example.wambishop.app-main-33:/drawable/ic_search.xml"
-    },
-    {
-        "merged": "com.example.wambishop.app-debug-31:/mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "com.example.wambishop.app-main-33:/mipmap-xhdpi/ic_launcher.webp"
-    },
-    {
-        "merged": "com.example.wambishop.app-debug-31:/drawable_ic_shopping_cart.xml.flat",
-        "source": "com.example.wambishop.app-main-33:/drawable/ic_shopping_cart.xml"
-    },
-    {
-        "merged": "com.example.wambishop.app-debug-31:/drawable_ic_cart.xml.flat",
-        "source": "com.example.wambishop.app-main-33:/drawable/ic_cart.xml"
-    },
-    {
         "merged": "com.example.wambishop.app-debug-31:/drawable_logo.png.flat",
         "source": "com.example.wambishop.app-main-33:/drawable/logo.png"
-    },
-    {
-        "merged": "com.example.wambishop.app-debug-31:/mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "com.example.wambishop.app-main-33:/mipmap-hdpi/ic_launcher.webp"
-    },
-    {
-        "merged": "com.example.wambishop.app-debug-31:/drawable_ic_launcher_background.xml.flat",
-        "source": "com.example.wambishop.app-main-33:/drawable/ic_launcher_background.xml"
-    },
-    {
-        "merged": "com.example.wambishop.app-debug-31:/drawable_borde_gris.xml.flat",
-        "source": "com.example.wambishop.app-main-33:/drawable/borde_gris.xml"
     },
     {
         "merged": "com.example.wambishop.app-debug-31:/layout_activity_main.xml.flat",
@@ -84,8 +44,104 @@
         "source": "com.example.wambishop.app-main-33:/mipmap-mdpi/ic_launcher_round.webp"
     },
     {
+        "merged": "com.example.wambishop.app-debug-31:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.wambishop.app-main-33:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.wambishop.app-debug-31:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.wambishop.app-main-33:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.wambishop.app-debug-31:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.wambishop.app-main-33:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.wambishop.app-debug-31:/layout_activity_carrito.xml.flat",
+        "source": "com.example.wambishop.app-main-33:/layout/activity_carrito.xml"
+    },
+    {
+        "merged": "com.example.wambishop.app-debug-31:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.example.wambishop.app-main-33:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.example.wambishop.app-debug-31:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.wambishop.app-main-33:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.wambishop.app-debug-31:/drawable_ic_home.xml.flat",
+        "source": "com.example.wambishop.app-main-33:/drawable/ic_home.xml"
+    },
+    {
+        "merged": "com.example.wambishop.app-debug-31:/layout_activity_tienda_secundaria.xml.flat",
+        "source": "com.example.wambishop.app-main-33:/layout/activity_tienda_secundaria.xml"
+    },
+    {
+        "merged": "com.example.wambishop.app-debug-31:/drawable_fideos_horizontalscroll.png.flat",
+        "source": "com.example.wambishop.app-main-33:/drawable/fideos_horizontalscroll.png"
+    },
+    {
+        "merged": "com.example.wambishop.app-debug-31:/layout_activity_perfil.xml.flat",
+        "source": "com.example.wambishop.app-main-33:/layout/activity_perfil.xml"
+    },
+    {
+        "merged": "com.example.wambishop.app-debug-31:/menu_bottom_nav_menu.xml.flat",
+        "source": "com.example.wambishop.app-main-33:/menu/bottom_nav_menu.xml"
+    },
+    {
+        "merged": "com.example.wambishop.app-debug-31:/drawable_dulces_horizontalscroll.png.flat",
+        "source": "com.example.wambishop.app-main-33:/drawable/dulces_horizontalscroll.png"
+    },
+    {
+        "merged": "com.example.wambishop.app-debug-31:/drawable_ic_menu_share.xml.flat",
+        "source": "com.example.wambishop.app-main-33:/drawable/ic_menu_share.xml"
+    },
+    {
+        "merged": "com.example.wambishop.app-debug-31:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.wambishop.app-main-33:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.wambishop.app-debug-31:/drawable_fideos_horizontalmenu.jpeg.flat",
+        "source": "com.example.wambishop.app-main-33:/drawable/fideos_horizontalmenu.jpeg"
+    },
+    {
+        "merged": "com.example.wambishop.app-debug-31:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.example.wambishop.app-main-33:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.wambishop.app-debug-31:/drawable_ic_shopping_cart.xml.flat",
+        "source": "com.example.wambishop.app-main-33:/drawable/ic_shopping_cart.xml"
+    },
+    {
+        "merged": "com.example.wambishop.app-debug-31:/layout_activity_confirmacion_pedido.xml.flat",
+        "source": "com.example.wambishop.app-main-33:/layout/activity_confirmacion_pedido.xml"
+    },
+    {
+        "merged": "com.example.wambishop.app-debug-31:/drawable_ic_credit_card.xml.flat",
+        "source": "com.example.wambishop.app-main-33:/drawable/ic_credit_card.xml"
+    },
+    {
+        "merged": "com.example.wambishop.app-debug-31:/drawable_ic_cart.xml.flat",
+        "source": "com.example.wambishop.app-main-33:/drawable/ic_cart.xml"
+    },
+    {
+        "merged": "com.example.wambishop.app-debug-31:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.example.wambishop.app-main-33:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.wambishop.app-debug-31:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.wambishop.app-main-33:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.example.wambishop.app-debug-31:/drawable_borde_gris.xml.flat",
+        "source": "com.example.wambishop.app-main-33:/drawable/borde_gris.xml"
+    },
+    {
         "merged": "com.example.wambishop.app-debug-31:/drawable_circle_background.xml.flat",
         "source": "com.example.wambishop.app-main-33:/drawable/circle_background.xml"
+    },
+    {
+        "merged": "com.example.wambishop.app-debug-31:/drawable_ic_arrow_forward.xml.flat",
+        "source": "com.example.wambishop.app-main-33:/drawable/ic_arrow_forward.xml"
     },
     {
         "merged": "com.example.wambishop.app-debug-31:/drawable_salsasoja_horizontalscroll.png.flat",
@@ -104,14 +160,6 @@
         "source": "com.example.wambishop.app-main-33:/drawable/sunleestickrice_scrollview.png"
     },
     {
-        "merged": "com.example.wambishop.app-debug-31:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "com.example.wambishop.app-main-33:/mipmap-anydpi-v26/ic_launcher_round.xml"
-    },
-    {
-        "merged": "com.example.wambishop.app-debug-31:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.wambishop.app-main-33:/mipmap-xxxhdpi/ic_launcher_round.webp"
-    },
-    {
         "merged": "com.example.wambishop.app-debug-31:/mipmap-mdpi_ic_launcher.webp.flat",
         "source": "com.example.wambishop.app-main-33:/mipmap-mdpi/ic_launcher.webp"
     },
@@ -120,12 +168,12 @@
         "source": "com.example.wambishop.app-main-33:/xml/data_extraction_rules.xml"
     },
     {
-        "merged": "com.example.wambishop.app-debug-31:/mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "com.example.wambishop.app-main-33:/mipmap-xxxhdpi/ic_launcher.webp"
-    },
-    {
         "merged": "com.example.wambishop.app-debug-31:/drawable_ic_profile.xml.flat",
         "source": "com.example.wambishop.app-main-33:/drawable/ic_profile.xml"
+    },
+    {
+        "merged": "com.example.wambishop.app-debug-31:/drawable_ic_apple_pay.xml.flat",
+        "source": "com.example.wambishop.app-main-33:/drawable/ic_apple_pay.xml"
     },
     {
         "merged": "com.example.wambishop.app-debug-31:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
@@ -136,35 +184,19 @@
         "source": "com.example.wambishop.app-main-33:/layout/activity_tienda_principal.xml"
     },
     {
-        "merged": "com.example.wambishop.app-debug-31:/layout_activity_carrito.xml.flat",
-        "source": "com.example.wambishop.app-main-33:/layout/activity_carrito.xml"
-    },
-    {
         "merged": "com.example.wambishop.app-debug-31:/mipmap-xhdpi_ic_launcher_round.webp.flat",
         "source": "com.example.wambishop.app-main-33:/mipmap-xhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.wambishop.app-debug-31:/drawable_ic_launcher_foreground.xml.flat",
-        "source": "com.example.wambishop.app-main-33:/drawable/ic_launcher_foreground.xml"
+        "merged": "com.example.wambishop.app-debug-31:/drawable_ic_paypal.xml.flat",
+        "source": "com.example.wambishop.app-main-33:/drawable/ic_paypal.xml"
     },
     {
-        "merged": "com.example.wambishop.app-debug-31:/mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "com.example.wambishop.app-main-33:/mipmap-xxhdpi/ic_launcher.webp"
-    },
-    {
-        "merged": "com.example.wambishop.app-debug-31:/drawable_ic_home.xml.flat",
-        "source": "com.example.wambishop.app-main-33:/drawable/ic_home.xml"
+        "merged": "com.example.wambishop.app-debug-31:/drawable_ic_location.xml.flat",
+        "source": "com.example.wambishop.app-main-33:/drawable/ic_location.xml"
     },
     {
         "merged": "com.example.wambishop.app-debug-31:/drawable_redondo.xml.flat",
         "source": "com.example.wambishop.app-main-33:/drawable/redondo.xml"
-    },
-    {
-        "merged": "com.example.wambishop.app-debug-31:/layout_activity_tienda_secundaria.xml.flat",
-        "source": "com.example.wambishop.app-main-33:/layout/activity_tienda_secundaria.xml"
-    },
-    {
-        "merged": "com.example.wambishop.app-debug-31:/drawable_fideos_horizontalscroll.png.flat",
-        "source": "com.example.wambishop.app-main-33:/drawable/fideos_horizontalscroll.png"
     }
 ]
