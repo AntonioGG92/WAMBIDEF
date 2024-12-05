@@ -8,12 +8,11 @@ import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.ImageButton;
 import android.widget.LinearLayout;
-import android.widget.ScrollView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.widget.Toolbar;
-import androidx.constraintlayout.widget.ConstraintLayout;
+import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.example.wambishop.R;
@@ -23,22 +22,28 @@ import java.lang.String;
 
 public final class ActivityCarritoBinding implements ViewBinding {
   @NonNull
-  private final ConstraintLayout rootView;
+  private final LinearLayout rootView;
 
   @NonNull
   public final Button buyButton;
 
   @NonNull
+  public final ImageButton cartButton;
+
+  @NonNull
   public final ImageButton favoriteButton;
 
   @NonNull
-  public final LinearLayout footerLayout;
+  public final ImageButton homeButton;
 
   @NonNull
-  public final LinearLayout productsContainer;
+  public final ImageButton profileButton;
 
   @NonNull
-  public final ScrollView scrollView;
+  public final RecyclerView recyclerView;
+
+  @NonNull
+  public final ImageButton searchBottomButton;
 
   @NonNull
   public final CheckBox selectAllCheckBox;
@@ -55,17 +60,20 @@ public final class ActivityCarritoBinding implements ViewBinding {
   @NonNull
   public final TextView totalPriceText;
 
-  private ActivityCarritoBinding(@NonNull ConstraintLayout rootView, @NonNull Button buyButton,
-      @NonNull ImageButton favoriteButton, @NonNull LinearLayout footerLayout,
-      @NonNull LinearLayout productsContainer, @NonNull ScrollView scrollView,
+  private ActivityCarritoBinding(@NonNull LinearLayout rootView, @NonNull Button buyButton,
+      @NonNull ImageButton cartButton, @NonNull ImageButton favoriteButton,
+      @NonNull ImageButton homeButton, @NonNull ImageButton profileButton,
+      @NonNull RecyclerView recyclerView, @NonNull ImageButton searchBottomButton,
       @NonNull CheckBox selectAllCheckBox, @NonNull ImageButton shareButton,
       @NonNull Toolbar toolbar, @NonNull TextView toolbarTitle, @NonNull TextView totalPriceText) {
     this.rootView = rootView;
     this.buyButton = buyButton;
+    this.cartButton = cartButton;
     this.favoriteButton = favoriteButton;
-    this.footerLayout = footerLayout;
-    this.productsContainer = productsContainer;
-    this.scrollView = scrollView;
+    this.homeButton = homeButton;
+    this.profileButton = profileButton;
+    this.recyclerView = recyclerView;
+    this.searchBottomButton = searchBottomButton;
     this.selectAllCheckBox = selectAllCheckBox;
     this.shareButton = shareButton;
     this.toolbar = toolbar;
@@ -75,7 +83,7 @@ public final class ActivityCarritoBinding implements ViewBinding {
 
   @Override
   @NonNull
-  public ConstraintLayout getRoot() {
+  public LinearLayout getRoot() {
     return rootView;
   }
 
@@ -106,27 +114,39 @@ public final class ActivityCarritoBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.cartButton;
+      ImageButton cartButton = ViewBindings.findChildViewById(rootView, id);
+      if (cartButton == null) {
+        break missingId;
+      }
+
       id = R.id.favoriteButton;
       ImageButton favoriteButton = ViewBindings.findChildViewById(rootView, id);
       if (favoriteButton == null) {
         break missingId;
       }
 
-      id = R.id.footerLayout;
-      LinearLayout footerLayout = ViewBindings.findChildViewById(rootView, id);
-      if (footerLayout == null) {
+      id = R.id.homeButton;
+      ImageButton homeButton = ViewBindings.findChildViewById(rootView, id);
+      if (homeButton == null) {
         break missingId;
       }
 
-      id = R.id.productsContainer;
-      LinearLayout productsContainer = ViewBindings.findChildViewById(rootView, id);
-      if (productsContainer == null) {
+      id = R.id.profileButton;
+      ImageButton profileButton = ViewBindings.findChildViewById(rootView, id);
+      if (profileButton == null) {
         break missingId;
       }
 
-      id = R.id.scrollView;
-      ScrollView scrollView = ViewBindings.findChildViewById(rootView, id);
-      if (scrollView == null) {
+      id = R.id.recyclerView;
+      RecyclerView recyclerView = ViewBindings.findChildViewById(rootView, id);
+      if (recyclerView == null) {
+        break missingId;
+      }
+
+      id = R.id.searchBottomButton;
+      ImageButton searchBottomButton = ViewBindings.findChildViewById(rootView, id);
+      if (searchBottomButton == null) {
         break missingId;
       }
 
@@ -160,9 +180,9 @@ public final class ActivityCarritoBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityCarritoBinding((ConstraintLayout) rootView, buyButton, favoriteButton,
-          footerLayout, productsContainer, scrollView, selectAllCheckBox, shareButton, toolbar,
-          toolbarTitle, totalPriceText);
+      return new ActivityCarritoBinding((LinearLayout) rootView, buyButton, cartButton,
+          favoriteButton, homeButton, profileButton, recyclerView, searchBottomButton,
+          selectAllCheckBox, shareButton, toolbar, toolbarTitle, totalPriceText);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

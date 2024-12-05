@@ -8,8 +8,16 @@
         "source": "com.example.wambishop.app-main-33:/layout/item_cesta_producto.xml"
     },
     {
+        "merged": "com.example.wambishop.app-debug-31:/drawable_ic_menu_share.xml.flat",
+        "source": "com.example.wambishop.app-main-33:/drawable/ic_menu_share.xml"
+    },
+    {
         "merged": "com.example.wambishop.app-debug-31:/drawable_dulces_horizontalscroll.png.flat",
         "source": "com.example.wambishop.app-main-33:/drawable/dulces_horizontalscroll.png"
+    },
+    {
+        "merged": "com.example.wambishop.app-debug-31:/drawable_lechuga_image.png.flat",
+        "source": "com.example.wambishop.app-main-33:/drawable/lechuga_image.png"
     },
     {
         "merged": "com.example.wambishop.app-debug-31:/mipmap-hdpi_ic_launcher_round.webp.flat",
@@ -76,12 +84,20 @@
         "source": "com.example.wambishop.app-main-33:/mipmap-mdpi/ic_launcher_round.webp"
     },
     {
+        "merged": "com.example.wambishop.app-debug-31:/drawable_circle_background.xml.flat",
+        "source": "com.example.wambishop.app-main-33:/drawable/circle_background.xml"
+    },
+    {
         "merged": "com.example.wambishop.app-debug-31:/drawable_salsasoja_horizontalscroll.png.flat",
         "source": "com.example.wambishop.app-main-33:/drawable/salsasoja_horizontalscroll.png"
     },
     {
         "merged": "com.example.wambishop.app-debug-31:/drawable_ic_favorite_border.xml.flat",
         "source": "com.example.wambishop.app-main-33:/drawable/ic_favorite_border.xml"
+    },
+    {
+        "merged": "com.example.wambishop.app-debug-31:/drawable_search_background.xml.flat",
+        "source": "com.example.wambishop.app-main-33:/drawable/search_background.xml"
     },
     {
         "merged": "com.example.wambishop.app-debug-31:/drawable_sunleestickrice_scrollview.png.flat",
@@ -106,6 +122,10 @@
     {
         "merged": "com.example.wambishop.app-debug-31:/mipmap-xxxhdpi_ic_launcher.webp.flat",
         "source": "com.example.wambishop.app-main-33:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.wambishop.app-debug-31:/drawable_ic_profile.xml.flat",
+        "source": "com.example.wambishop.app-main-33:/drawable/ic_profile.xml"
     },
     {
         "merged": "com.example.wambishop.app-debug-31:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
